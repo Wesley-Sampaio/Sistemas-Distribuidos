@@ -2,7 +2,7 @@
 <h1 align="center">:file_cabinet: Sistemas Distribuídos</h1>
 
 ## :memo: Descrição
-Projeto feito na semana do Ignite Lab da @rocketseat. O projeto tinha que criar um página home onde o usuário cadastra o email e vai direto para a tela de Eventos. Foram utilizados: ReactJS, Tailwind, Graphql, Apollo, TypeScript, Deploy Vercel.
+Foi desenvolvido um servidor java que irar entregar ao cliente, utilizando um hashmap para emular uma base de dados. Esse servidor foi desenvolvido com três métodos Rest (POST, GET, DELETE). Foi desenvolvido um cliente com PHP para consumir o servidor.
 
 ## :books: Funcionalidades
 * Lista os dados fornecidos pelo server.
