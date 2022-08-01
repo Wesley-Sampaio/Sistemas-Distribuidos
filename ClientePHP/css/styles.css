@@ -1,0 +1,187 @@
+:root{
+    --back: hsla(230, 100%, 9%, 1);
+    --text_text: hsla(223, 100%, 96%, 1);
+    --botao: hsla(228, 81%, 59%, 1);
+    --botao_houver: hsla(230, 57%, 50%, 1);
+    --text_black: hsl(0deg 0% 0%);
+
+
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    background-color: var(--back);
+}
+
+
+h1 {
+    text-align: left;
+    border-bottom: 3px solid var(--text_text);
+    color: var(--text_text);
+    font-size: 30px;
+}
+h2 {
+    border-bottom: 3px solid var(--text_black);
+    color: var(--text_black);
+    font-size: 25px;
+}
+a {
+    color: var(--text_text);
+    text-decoration: none;
+    text-decoration-line: none; 
+}
+table {
+    background-color: #CDCDCD;
+    margin:0 auto;
+    font-size: 12pt;
+    text-align: left;
+    width: 50vw;
+    padding: 20px;
+    background: #f0f0f0;     
+    overflow:auto;
+    border: 1px solid #cccccc;     
+    -moz-border-radius: 7px;     
+    -webkit-border-radius: 7px;     
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 2px #cccccc;     
+    -webkit-box-shadow: 2px 2px 2px #cccccc;     
+    box-shadow: 2px 2px 2px #cccccc;
+}
+caption{
+    padding: 0px 2px 0px 2px;
+    text-align: left;
+    background: #f0f0f0;     
+    overflow:auto;
+    border: 1px solid #cccccc;     
+    -moz-border-radius: 7px;     
+    -webkit-border-radius: 7px;     
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 2px #cccccc;     
+    -webkit-box-shadow: 2px 2px 2px #cccccc;     
+    box-shadow: 2px 2px 2px #cccccc;
+}
+table thead tr th, table tfoot tr th {
+    background-color: #a9a9a9;
+    border: 1px solid #FFF;
+    font-size: 12pt;
+    padding: 4px;
+}
+table thead tr .header {
+    background-image: url(bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+table thead tr .headerSortUp {
+    background-image: url(asc.gif);
+}
+table thead tr .headerSortDown {
+    background-image: url(desc.gif);
+}
+table thead tr .headerSortDown, table thead tr .headerSortUp {
+    background-color: #666;
+    color:#fff;
+}
+table tbody td {
+    color: #3D3D3D;
+    padding: 4px;
+    vertical-align: top;
+}
+table tbody tr.odd td {
+    background-color:#F0F0F6;
+}
+table tbody tr:nth-child(odd)	{
+    background-color: #cccccc;
+}
+table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+#postform {
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+    background: #f0f0f0;     
+    overflow:auto;
+    border: 1px solid #cccccc;     
+    -moz-border-radius: 7px;     
+    -webkit-border-radius: 7px;     
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 2px #cccccc;     
+    -webkit-box-shadow: 2px 2px 2px #cccccc;     
+    box-shadow: 2px 2px 2px #cccccc;       
+}
+label {     
+    text-shadow: 2px 2px 2px #ccc;     
+    display: block;     
+    float: left; 
+    margin-right:15px;     
+    font-weight: bold;     
+    margin-right:10px;     
+    text-align: right;     
+    width: 120px;     
+    line-height: 25px;     
+    font-size: 18px;     
+}
+.input{     
+    font-size: 15px;   
+    font-weight: bold;
+    padding: 5px;     
+    border: 1px solid #b9bdc1;     
+    width: 300px;     
+    color: #797979;
+}
+.hint{
+    display:none;
+}
+.field{
+    margin: 10px 10px 10px 10px ;
+}
+.field:hover .hint {
+    font-size: 15px;   
+    font-weight: bold;
+    position: absolute;     
+    display: block;     
+    margin: -30px 0 0 455px;     
+    color: #FFFFFF;     
+    padding: 7px 10px;     
+    background: rgba(0, 0, 0, 0.6);       
+    -moz-border-radius: 7px;     
+    -webkit-border-radius: 7px;     
+    border-radius: 7px;     
+}
+
+.botao {
+    float: right; 
+    font-size: 18px;
+    font-weight: bolder;
+    background: var(--botao);
+    margin: 20px 35px 30px 20px;
+    color: var(--text_text);
+    padding: 6px 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border: 1px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+}
+
+.botao:hover {
+    background: var(--botao_houver);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+
