@@ -39,7 +39,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 
 ## :framed_picture: Previews
 <img alt="Application demo GIF" src=".github/prev.gif">
-<img alt="Application demo GIF" src=".github/cap.png">
+<img alt="Application demo GIF" src=".github/cap.PNG">
 
 ## :satellite: Configurações adicionais ao projeto
 Para executar o projeto você precisa configurar a porta do cliente para 9090 para que consiga rodar a aplicação.
