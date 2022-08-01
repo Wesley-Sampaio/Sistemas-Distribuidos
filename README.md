@@ -11,12 +11,12 @@ Foi desenvolvido um servidor java que irar entregar ao cliente, utilizando um ha
 
 ## :wrench: Tecnologias utilizadas
 * [Java](https://nodejs.org/en/https://www.java.com/pt-BR/)
-* [NetBeans](https://netbeans.apache.org/download/index.html)
+* [Javascript ](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 * [PHP](https://www.postman.com/)
 
 ## :wrench: Ferramentas utilizadas
 * [XAMPP](https://www.apachefriends.org/pt_br/index.html)
-* [Javascript ](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [NetBeans](https://netbeans.apache.org/download/index.html)
 * [Postman](https://www.php.net/)
 * [GlassFish](https://javaee.github.io/glassfish/download)
 
