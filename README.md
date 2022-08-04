@@ -11,12 +11,12 @@ Foi desenvolvido um servidor java que irar entregar ao cliente, utilizando um ha
 
 ## :wrench: Tecnologias utilizadas
 * [Java](https://nodejs.org/en/https://www.java.com/pt-BR/)
-* [NetBeans](https://netbeans.apache.org/download/index.html)
+* [Javascript ](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 * [PHP](https://www.postman.com/)
 
 ## :wrench: Ferramentas utilizadas
 * [XAMPP](https://www.apachefriends.org/pt_br/index.html)
-* [Javascript ](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [NetBeans](https://netbeans.apache.org/download/index.html)
 * [Postman](https://www.php.net/)
 * [GlassFish](https://javaee.github.io/glassfish/download)
 
@@ -39,7 +39,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 
 ## :framed_picture: Previews
 <img alt="Application demo GIF" src=".github/prev.gif">
-<img alt="Application demo GIF" src=".github/cap.png">
+<img alt="Application demo GIF" src=".github/cap.PNG">
 
 ## :satellite: Configurações adicionais ao projeto
 Para executar o projeto você precisa configurar a porta do cliente para 9090 para que consiga rodar a aplicação.
