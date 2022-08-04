@@ -1,8 +1,5 @@
 package model;
 
-/*import javax.xml.bind.annotation.XmlRootElement; cria um json encima do xml, que cria uma string diferente do 
- json nativo, assim o POST nao reconhece a string
- @XmlRootElement*/
 public class Hotel {
 
     private int id;

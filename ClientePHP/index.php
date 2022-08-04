@@ -52,11 +52,11 @@
     <body align="center">
 
         <?php
-//trata a URL, se possui action e id, executa exclusao, caso contrario trata o GET da lista
+        //trata a URL, se possui action e id, executa exclusao, caso contrario trata o GET da lista
         if (isset($_GET["action"]) && isset($_GET["id"]) && $_GET["action"] == "del_id") {
-//Recupera o ID do GET da página    
+        //Recupera o ID do GET da página    
             $iddel = $_GET["id"];
-//Inicia a biblioteca cURL do PHP
+        //Inicia a biblioteca cURL do PHP
             $curl = curl_init();
 
             curl_setopt_array($curl, array(
@@ -88,7 +88,7 @@
     } else {    //caso contratio
         ?>
 
-                    <h1>Hoteis</h1>
+                    <h1>Hoteis - Lista GET</h1>
 
         <?php
     }
@@ -106,11 +106,10 @@
             <h1>Hoteis</h1>
             <table id="hoteis" align="center">
 
-                <caption><h2>Lista GET</h2></caption> 
+                
 
                 <thead>
                     <tr>
-
                         <th>id</th>
                         <th>Nome</th>
                         <th>Endereco</th>
@@ -139,7 +138,7 @@
                     $data1 = curl_exec($curl); //Recebe a lista no formato jSon do WS
                     curl_close($curl); //Encerra a biblioteca
                     $data = json_decode($data1); //Decodifica o retorno gerado no modelo jSon
-//$hoteis = $data->hotel; função de selecionar o obejto nao suportada pelo POST do WS
+                    //$hoteis = $data->hotel; função de selecionar o obejto nao suportada pelo POST do WS
                     foreach ($data as $c) { //cria a classe de tratamento
                         //Define as arrays
                         $id = $c->id;
@@ -174,8 +173,6 @@
                     <button type="button" onclick="buscar()" class="botao" style="width: 110px; float: none;" >Buscar</button>
                 </td>
             </tr>
-
-
 
         </table>
 
