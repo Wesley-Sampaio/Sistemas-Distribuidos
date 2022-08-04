@@ -2,7 +2,7 @@
 <h1 align="center">:file_cabinet: Sistemas Distribuídos</h1>
 
 ## :memo: Descrição
-Foi desenvolvido um servidor java que irar entregar ao cliente, utilizando um hashmap para emular uma base de dados. Esse servidor foi desenvolvido com três métodos Rest (POST, GET, DELETE). Foi desenvolvido um cliente com PHP para consumir o servidor.
+Foi desenvolvido um servidor java que irar entregar informações ao cliente, utilizando um hashmap para emular uma base de dados. Esse servidor foi desenvolvido com três métodos Rest (POST, GET, DELETE). Foi desenvolvido um cliente com PHP para consumir o serviço.
 
 ## :books: Funcionalidades
 * Lista os dados fornecidos pelo server.
